@@ -22,11 +22,9 @@
 {
   "Counters": [
     {
-      "iterator": "counter_st3_boss_vida",
-      "mass": 70,
-      "counter": "counter_st3_boss_vida_bar",
-      "hitbox": "st3_boss_break",
-      "display": "Block"
+      "iterator": "boss_hp",
+      "hitbox": "Zombie_Item_Boss_Super_Health",
+      "display": "Alex"
     }
   ]
 }
