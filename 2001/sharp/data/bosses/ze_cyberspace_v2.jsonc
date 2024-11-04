@@ -22,12 +22,32 @@
 {
   "Counters": [
     {
-      "iterator": "radiation_hpcounter",
-      "mass": 41,
-      "counter": "radiation_hpmasscounter",
-      "increase": true,
-      "hitbox": "radiation_target",
-      "display": "Deadcore"
+      "iterator": "c3_boss_counter",
+      "hitbox": "c3_boss_hitbox",
+      "display": "Block"
+    },
+    {
+      "iterator": "c3_end_boss_counter",
+      "hitbox": "c3_end_boss_hitbox",
+      "display": "Final"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "2470",
+      "display": "Sphere1"
+    },
+    {
+      "identity": "2485",
+      "display": "Sphere2"
+    },
+    {
+      "identity": "1948",
+      "display": "Sphere3"
+    },
+    {
+      "identity": "1493",
+      "display": "Sphere4"
     }
   ]
 }

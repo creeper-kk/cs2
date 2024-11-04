@@ -20,14 +20,10 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
-  "Counters": [
+  "Monsters": [
     {
-      "iterator": "radiation_hpcounter",
-      "mass": 41,
-      "counter": "radiation_hpmasscounter",
-      "increase": true,
-      "hitbox": "radiation_target",
-      "display": "Deadcore"
+      "identity": "11721",
+      "display": "Boss"
     }
   ]
 }

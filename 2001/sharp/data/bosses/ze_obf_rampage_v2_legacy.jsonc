@@ -22,12 +22,15 @@
 {
   "Counters": [
     {
-      "iterator": "radiation_hpcounter",
-      "mass": 41,
-      "counter": "radiation_hpmasscounter",
-      "increase": true,
-      "hitbox": "radiation_target",
-      "display": "Deadcore"
+      "iterator": "drone_counter",
+      "hitbox": "drone_hitbox",
+      "display": "小飞机"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "17826",
+      "display": "直升机"
     }
   ]
 }
