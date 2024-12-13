@@ -20,39 +20,41 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
-  "Breakables": [
+  "Counters": [
     {
-      "target": "bosss_hp",
-      "display": "瘦猴圣诞老人",
-      "hitbox": "boss_s_model"
+      "iterator": "creta_Health",
+      "backup": "creta_HealthBackup",
+      "counter": "creta_HealthCount",
+      "hitbox": "creta_Hitbox",
+      "display": "Creta"
     },
     {
-      "target": "bosss_hp1",
-      "display": "肥宅圣诞老人",
-      "hitbox": "boss_sb_model"
+      "iterator": "wwx_health",
+      "mass": 13,
+      "counter": "wwx_segment",
+      "hitbox": "wwx_boss_hitbox",
+      "display": "Boss"
     },
     {
-      "target": "bosss_hp2",
-      "display": "灼眼尊者",
-      "hitbox": "bosss_hp2"
-    }
-  ],
-  "Monsters": [
-    {
-      "identity": "4304",
-      "display": "灼眼の大头小分队"
+      "iterator": "yzx_health",
+      "mass": 50,
+      "counter": "yzx_segment",
+      "hitbox": "yzx_dragon_hitbox",
+      "display": "Dragon"
     },
     {
-      "identity": "1221",
-      "display": "灼眼の板鸭"
+      "iterator": "xwz_health",
+      "mass": 50,
+      "counter": "xwz_segment",
+      "hitbox": "xwz_boss_hitbox",
+      "display": "Boss"
     },
     {
-      "identity": "756",
-      "display": "灼眼の律化娜"
-    },
-    {
-      "identity": "519",
-      "display": "灼眼のRGB大头"
+      "iterator": "jzx_health",
+      "mass": 55,
+      "counter": "jzx_segment",
+      "hitbox": "jzx_boss_hitbox",
+      "display": "Boss"
     }
   ]
 }

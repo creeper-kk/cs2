@@ -20,39 +20,34 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
-  "Breakables": [
-    {
-      "target": "bosss_hp",
-      "display": "瘦猴圣诞老人",
-      "hitbox": "boss_s_model"
-    },
-    {
-      "target": "bosss_hp1",
-      "display": "肥宅圣诞老人",
-      "hitbox": "boss_sb_model"
-    },
-    {
-      "target": "bosss_hp2",
-      "display": "灼眼尊者",
-      "hitbox": "bosss_hp2"
-    }
-  ],
   "Monsters": [
     {
-      "identity": "4304",
-      "display": "灼眼の大头小分队"
+      "identity": "9685",
+      "display": "Spider"
     },
     {
-      "identity": "1221",
-      "display": "灼眼の板鸭"
+      "identity": "10868",
+      "display": "Troll"
     },
     {
-      "identity": "756",
-      "display": "灼眼の律化娜"
+      "identity": "9594",
+      "display": "Dragon"
     },
     {
-      "identity": "519",
-      "display": "灼眼のRGB大头"
+      "identity": "10837",
+      "display": "Gargantua"
+    },
+    {
+      "identity": "10892",
+      "display": "Diablo"
+    },
+    {
+      "identity": "9567",
+      "display": "Dragon"
+    },
+    {
+      "identity": "9399",
+      "display": "Diablo"
     }
   ]
 }

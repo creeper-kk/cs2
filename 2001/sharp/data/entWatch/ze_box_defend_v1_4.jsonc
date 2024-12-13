@@ -22,25 +22,14 @@
 
 [
   {
-    "name": "死星",
-    "shortName": "死星",
+    "name": "弹药",
+    "shortName": "弹药",
     "buttonClass": "func_button",
-    "hammerId": "952",
-    "triggerId": ["958"],
-    "team": 2,
-    "knife": true,
-    "mode": 1,
-    "count": 1
-  },
-  {
-    "name": "[ZM]加速",
-    "shortName": "[ZM]加速",
-    "buttonClass": "func_button",
-    "hammerId": "923",
-    "triggerId": ["920"],
-    "team": 2,
-    "knife": true,
-    "mode": 1,
+    "hammerId": "1483",
+    "cooldown": 60,
+    "team": 3,
+    "knife": false,
+    "mode": 2,
     "count": 1
   }
 ]
