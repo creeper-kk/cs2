@@ -20,48 +20,33 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
+  "Counters": [
+    {
+      "iterator": "pirate_counter",
+      "backup": "pirate_hp_backup",
+      "counter": "pirate_hp_iterations",
+      "hitbox": "pirate_hitbox",
+      "display": "Pirate"
+    },
+    {
+      "iterator": "kraken_counter",
+      "backup": "kraken_hp_backup",
+      "counter": "kraken_hp_iterations",
+      "hitbox": "kraken_box",
+      "display": "Kraken"
+    },
+    {
+      "iterator": "barbossa_counter",
+      "backup": "barbossa_hp_backup",
+      "counter": "barbossa_hp_iterations",
+      "hitbox": "barbossa_hit",
+      "display": "Barbossa"
+    }
+  ],
   "Monsters": [
     {
-      "identity": "9685",
-      "hitbox": "s1boss_hit",
-      "counter": "bosshp2",
-      "display": "蜘蛛女王"
-    },
-    {
-      "identity": "10868",
-      "hitbox": "s2boss_hit",
-      "counter": "bosshp2",
-      "display": "巨魔"
-    },
-    {
-      "identity": "9594",
-      "hitbox": "s3boss_hit",
-      "counter": "bosshp2",
-      "display": "远古巨龙"
-    },
-    {
-      "identity": "10837",
-      "hitbox": "s4boss_hit",
-      "counter": "bosshp1",
-      "display": "怪兽"
-    },
-    {
-      "identity": "10892",
-      "hitbox": "s5boss_hit",
-      "counter": "bosshp2",
-      "display": "暗黑破坏神"
-    },
-    {
-      "identity": "9567",
-      "hitbox": "s5boss_angra_hit",
-      "counter": "bosshp2",
-      "display": "门神龙"
-    },
-    {
-      "identity": "9399",
-      "hitbox": "s5boss_diablo_hit",
-      "counter": "bosshp2",
-      "display": "暗黑破坏神"
+      "identity": "33764",
+      "display": "Barbossa"
     }
   ]
 }
