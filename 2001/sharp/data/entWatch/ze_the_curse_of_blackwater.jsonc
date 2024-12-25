@@ -22,22 +22,22 @@
 
 [
   {
-    "name": "治疗",
-    "shortName": "治疗",
-    "buttonClass": "func_physbox",
-    "hammerId": "134",
-    "cooldown": 45,
+    "name": "奶",
+    "shortName": "奶",
+    "buttonClass": "func_button",
+    "hammerId": "10041",
+    "cooldown": 20,
     "team": 3,
     "knife": false,
     "mode": 2,
     "count": 1
   },
   {
-    "name": "重力",
-    "shortName": "重力",
-    "buttonClass": "func_physbox",
-    "hammerId": "147",
-    "cooldown": 75,
+    "name": "灯",
+    "shortName": "灯",
+    "buttonClass": "func_button",
+    "hammerId": "10040",
+    "cooldown": 10,
     "team": 3,
     "knife": false,
     "mode": 2,

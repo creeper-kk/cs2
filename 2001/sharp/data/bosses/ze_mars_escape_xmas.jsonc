@@ -20,44 +20,31 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
+  "Breakables": [
+    {
+      "target": "BridgeBahamutHitbox",
+      "display": "超大圣诞老人"
+    }
+  ],
   "Counters": [
     {
-      "iterator": "pirate_counter",
-      "backup": "pirate_hp_backup",
-      "counter": "pirate_hp_iterations",
-      "hitbox": "pirate_hitbox",
-      "display": "Pirate"
+      "iterator": "BahaHitbox",
+      "hitbox": "BahaHitbox_Grenade",
+      "display": "超大圣诞老人"
+    }
+  ],
+  "Monsters": [
+    {
+      "display": "萨菲罗斯",
+      "identity": "51786"
     },
     {
-      "iterator": "kraken_counter",
-      "backup": "kraken_hp_backup",
-      "counter": "kraken_hp_iterations",
-      "hitbox": "kraken_box",
-      "display": "Kraken"
+      "display": "圣诞老人",
+      "identity": "3425"
     },
     {
-      "iterator": "barbossa_counter",
-      "backup": "barbossa_hp_backup",
-      "counter": "barbossa_hp_iterations",
-      "hitbox": "barbossa_hit",
-      "display": "Barbossa"
-    },
-    {
-      "iterator": "cannon_counter",
-      "backup": "boss_hp_backup",
-      "counter": "boss_hp_iterations",
-      "hitbox": "cannon_boss_base",
-      "display": "Cannon"
-    },
-    {
-      "iterator": "final_barbossa_counter",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF1"
-    },
-    {
-      "iterator": "final_barbossa_counter2",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF2"
+      "display": "长条",
+      "identity": "3399"
     }
   ]
 }

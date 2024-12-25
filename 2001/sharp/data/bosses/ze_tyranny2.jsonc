@@ -20,48 +20,92 @@
   // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
 
 {
-  "Monsters": [
+  "Counters": [
     {
       "identity": "9685",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s1boss_hit",
-      "counter": "bosshp2",
-      "display": "蜘蛛女王"
+      "display": "BOSS"
     },
     {
       "identity": "10868",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s2boss_hit",
-      "counter": "bosshp2",
-      "display": "巨魔"
+      "display": "BOSS"
     },
     {
       "identity": "9594",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s3boss_hit",
-      "counter": "bosshp2",
-      "display": "远古巨龙"
+      "display": "BOSS"
     },
     {
       "identity": "10837",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s4boss_hit",
-      "counter": "bosshp1",
-      "display": "怪兽"
+      "display": "BOSS"
     },
     {
       "identity": "10892",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s5boss_hit",
-      "counter": "bosshp2",
-      "display": "暗黑破坏神"
+      "display": "BOSS"
     },
     {
       "identity": "9567",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s5boss_angra_hit",
-      "counter": "bosshp2",
-      "display": "门神龙"
+      "display": "BOSS"
     },
     {
       "identity": "9399",
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
       "hitbox": "s5boss_diablo_hit",
-      "counter": "bosshp2",
-      "display": "暗黑破坏神"
+      "display": "BOSS"
+    },
+    {
+      "identity": "7477",
+      "iterator": "snake_math",
+      "backup": "Boss_HealthBackup_snake",
+      "counter": "Boss_HealthCount_snake",
+      "hitbox": "s3_snake_hitbox",
+      "display": "无敌蟒蛇大王"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "12843",
+      "display": "左侧雕像彩蛋"
+    },
+    {
+      "identity": "12845",
+      "display": "中间雕像彩蛋"
+    },
+    {
+      "identity": "12847",
+      "display": "右侧雕像彩蛋"
+    },
+    {
+      "identity": "8343",
+      "display": "上层木板"
+    },
+    {
+      "identity": "8341",
+      "display": "下层木板"
     }
   ]
 }

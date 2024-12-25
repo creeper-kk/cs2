@@ -22,42 +22,23 @@
 {
   "Counters": [
     {
-      "iterator": "pirate_counter",
-      "backup": "pirate_hp_backup",
-      "counter": "pirate_hp_iterations",
-      "hitbox": "pirate_hitbox",
-      "display": "Pirate"
+      "iterator": "drg7_hp_1",
+      "hitbox": "drg7_hitbox",
+      "display": "阿拉斯"
+    }
+  ],
+  "Breakables": [
+    {
+      "target": "lfkb_boss_phys",
+      "display": "拉法库巴"
     },
     {
-      "iterator": "kraken_counter",
-      "backup": "kraken_hp_backup",
-      "counter": "kraken_hp_iterations",
-      "hitbox": "kraken_box",
-      "display": "Kraken"
+      "target": "ex_end_hitbox",
+      "display": "ex_end"
     },
     {
-      "iterator": "barbossa_counter",
-      "backup": "barbossa_hp_backup",
-      "counter": "barbossa_hp_iterations",
-      "hitbox": "barbossa_hit",
-      "display": "Barbossa"
-    },
-    {
-      "iterator": "cannon_counter",
-      "backup": "boss_hp_backup",
-      "counter": "boss_hp_iterations",
-      "hitbox": "cannon_boss_base",
-      "display": "Cannon"
-    },
-    {
-      "iterator": "final_barbossa_counter",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF1"
-    },
-    {
-      "iterator": "final_barbossa_counter2",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF2"
+      "target": "els_hitbox",
+      "display": "魔女精灵"
     }
   ]
 }

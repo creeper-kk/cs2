@@ -22,42 +22,51 @@
 {
   "Counters": [
     {
-      "iterator": "pirate_counter",
-      "backup": "pirate_hp_backup",
-      "counter": "pirate_hp_iterations",
-      "hitbox": "pirate_hitbox",
-      "display": "Pirate"
+      "iterator": "Counter_heal",
+      "display": "girl",
+      "hitbox": "Physbox_Sofya"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "9683",
+      "display": "pincher1"
     },
     {
-      "iterator": "kraken_counter",
-      "backup": "kraken_hp_backup",
-      "counter": "kraken_hp_iterations",
-      "hitbox": "kraken_box",
-      "display": "Kraken"
+      "identity": "9685",
+      "display": "pincher2"
     },
     {
-      "iterator": "barbossa_counter",
-      "backup": "barbossa_hp_backup",
-      "counter": "barbossa_hp_iterations",
-      "hitbox": "barbossa_hit",
-      "display": "Barbossa"
+      "identity": "9374",
+      "display": "pincher3"
     },
     {
-      "iterator": "cannon_counter",
-      "backup": "boss_hp_backup",
-      "counter": "boss_hp_iterations",
-      "hitbox": "cannon_boss_base",
-      "display": "Cannon"
+      "identity": "9376",
+      "display": "pincher4"
     },
     {
-      "iterator": "final_barbossa_counter",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF1"
+      "identity": "3106",
+      "display": "decayed1"
     },
     {
-      "iterator": "final_barbossa_counter2",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF2"
+      "identity": "3112",
+      "display": "decayed2"
+    },
+    {
+      "identity": "9303",
+      "display": "decayed3"
+    },
+    {
+      "identity": "9298",
+      "display": "decayed4"
+    },
+    {
+      "identity": "9111",
+      "display": "girl1"
+    },
+    {
+      "identity": "9106",
+      "display": "girl2"
     }
   ]
 }

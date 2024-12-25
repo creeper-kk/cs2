@@ -22,42 +22,34 @@
 {
   "Counters": [
     {
-      "iterator": "pirate_counter",
-      "backup": "pirate_hp_backup",
-      "counter": "pirate_hp_iterations",
-      "hitbox": "pirate_hitbox",
-      "display": "Pirate"
+      "iterator": "Clown_Champion_Health",
+      "hitbox": "Clown_Champion_Hitbox",
+      "display": "Clown Champion"
     },
     {
-      "iterator": "kraken_counter",
-      "backup": "kraken_hp_backup",
-      "counter": "kraken_hp_iterations",
-      "hitbox": "kraken_box",
-      "display": "Kraken"
+      "iterator": "IronGolemHp",
+      "hitbox": "Golem_Phys_Body",
+      "display": "Iron Golem"
     },
     {
-      "iterator": "barbossa_counter",
-      "backup": "barbossa_hp_backup",
-      "counter": "barbossa_hp_iterations",
-      "hitbox": "barbossa_hit",
-      "display": "Barbossa"
+      "iterator": "Asylum_Demon_Health_Counter",
+      "hitbox": "Asylum_Demon_Hitbox",
+      "display": "Asylum Demon"
     },
     {
-      "iterator": "cannon_counter",
-      "backup": "boss_hp_backup",
-      "counter": "boss_hp_iterations",
-      "hitbox": "cannon_boss_base",
-      "display": "Cannon"
+      "iterator": "Broodmother_Health_Counter",
+      "hitbox": "Broodmother_Hitbox",
+      "display": "Brood mother"
     },
     {
-      "iterator": "final_barbossa_counter",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF1"
+      "iterator": "Thrower_Health",
+      "hitbox": "Thrower_Hitbox",
+      "display": "Thrower"
     },
     {
-      "iterator": "final_barbossa_counter2",
-      "hitbox": "final_barbossa_hit",
-      "display": "BarbossaF2"
+      "iterator": "Gwyn_Health_Counter",
+      "hitbox": "Gwyn_Hitbox",
+      "display": "Gwyn"
     }
   ]
 }
